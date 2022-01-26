@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="showcase">
+      <header>
+        <h2 class="logo">Travel By Bus</h2>
+        <div class="toggle"></div>
+      </header>
+      </video>
+      <video src="explore.mp4" muted loop autoplay></video>
+      <div class="overlay"></div>
+      <div class="text">
+        <h2>I Love Traveling</h2>
+        <h3>Oh the places you’ll go</h3>
+        <p>
+          I love the excitement of it all — feeling like an explorer —
+          discovering a new land, a new language, new money and all the little
+          challenges that go along with it. When I travel, I am more spontaneous
+          and don’t live for the future or the past… just in the moment. Being
+          impulsive and saying ‘yes’ to nearly everything is part of the fun.
+        </p>
+        <a href="#">Explore</a>
+      </div>
+      <ul class="social">
+        <li>
+          <a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png" /></a>
+        </li>
+      </ul>
+    </section>
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Destination</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showcase = document.querySelector(".showcase");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        showcase.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
